@@ -50,7 +50,7 @@
 </dependencies>
 <profiles>
 <profile>
-<id>st</id>
+<id>rr</id>
 <build>
 	<plugins>
 		 <plugin>
@@ -58,7 +58,7 @@
           <version>2.22.1</version>
           	<configuration>
           		<suitXmlFiles>
-          			<suitXmlFile>smoke_testng.xml</suitXmlFile>
+          			<suitXmlFile>regional_regression_testng.xml</suitXmlFile>
           		</suitXmlFiles>
           	</configuration>
         	</plugin>
