@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -29,9 +30,19 @@ public class Baseclass
 	@BeforeClass(groups = {"smoke","regression"})
 	public void openbrowser() throws IOException
 	{
+		String driveroptions=System.getProperty("driver");
+		if(driveroptions.equalsIgnoreCase("chrome"))
+		{
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		sdriver=driver;
+		}
+		else if(driveroptions.equalsIgnoreCase("firefox"))
+		{
+			WebDriverManager.firefoxdriver().setup();
+			driver=new FirefoxDriver();
+			sdriver=driver;
+		}
 		wutil.implicitlywait(driver);
 		driver.manage().window().maximize();
 		driver.get(futil.GetPropertyKeyValue("url"));
