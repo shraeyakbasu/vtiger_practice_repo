@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-08T18:30:44 IST" name="Suite" finished-at="2021-05-08T18:32:59 IST" duration-ms="135091">
+  <suite started-at="2021-05-17T13:47:05 IST" name="Suite" finished-at="2021-05-17T13:47:15 IST" duration-ms="9905">
     <groups>
-      <group name="smoke">
-        <method signature="TC_11_createoppurtunitywithcampaignsourceTest.createoppurtunitywithcampsrc()[pri:0, instance:com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest@5c909414]" name="createoppurtunitywithcampsrc" class="com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2021-05-08T18:30:44 IST" name="Test" finished-at="2021-05-08T18:32:59 IST" duration-ms="135091">
-      <class name="com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest@5c909414]" started-at="2021-05-08T18:30:44 IST" name="openbrowser" finished-at="2021-05-08T18:31:28 IST" duration-ms="44378" status="PASS">
+    <test started-at="2021-05-17T13:47:05 IST" name="Test1" finished-at="2021-05-17T13:47:12 IST" duration-ms="6551">
+      <class name="seleniumGRID.SeleniumGrid">
+        <test-method signature="gridpractice(java.lang.String)[pri:0, instance:seleniumGRID.SeleniumGrid@71b1176b]" started-at="2021-05-17T13:47:05 IST" name="gridpractice" finished-at="2021-05-17T13:47:11 IST" duration-ms="6409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest@5c909414]" started-at="2021-05-08T18:31:28 IST" name="login" finished-at="2021-05-08T18:31:51 IST" duration-ms="22994" status="PASS">
+        </test-method> <!-- gridpractice -->
+      </class> <!-- seleniumGRID.SeleniumGrid -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-05-17T13:47:05 IST" name="Test2" finished-at="2021-05-17T13:47:15 IST" duration-ms="9903">
+      <class name="seleniumGRID.SeleniumGrid">
+        <test-method signature="gridpractice(java.lang.String)[pri:0, instance:seleniumGRID.SeleniumGrid@2ea227af]" started-at="2021-05-17T13:47:05 IST" name="gridpractice" finished-at="2021-05-17T13:47:15 IST" duration-ms="9801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="createoppurtunitywithcampsrc()[pri:0, instance:com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest@5c909414]" started-at="2021-05-08T18:31:51 IST" name="createoppurtunitywithcampsrc" finished-at="2021-05-08T18:32:53 IST" duration-ms="61358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createoppurtunitywithcampsrc -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest@5c909414]" started-at="2021-05-08T18:32:53 IST" name="logout" finished-at="2021-05-08T18:32:58 IST" duration-ms="4995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest@5c909414]" started-at="2021-05-08T18:32:58 IST" name="closebrowser" finished-at="2021-05-08T18:32:59 IST" duration-ms="1251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest -->
-    </test> <!-- Test -->
+        </test-method> <!-- gridpractice -->
+      </class> <!-- seleniumGRID.SeleniumGrid -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

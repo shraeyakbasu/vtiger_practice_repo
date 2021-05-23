@@ -9,7 +9,7 @@ public class ExcelUtility
 {
 	public String GetExcelcellvalue(String sheetname,int row,int column) throws IOException
 	{
-		FileInputStream fis=new FileInputStream("./data/vtiger.xlsx");
+		FileInputStream fis=new FileInputStream(AutoConstant.excelpath);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		return wb.getSheet(sheetname).getRow(row).getCell(column).getStringCellValue();
 	}

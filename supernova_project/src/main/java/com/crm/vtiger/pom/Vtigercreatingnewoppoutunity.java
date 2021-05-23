@@ -111,7 +111,7 @@ public class Vtigercreatingnewoppoutunity
 		wutil.switchwindow(driver, "Potentials&action");
 		assignedtogroupradio.click();
 		getGroupdropdown().click();
-		wutil.selectbytext(groupdropdown, "Team Selling");
+		wutil.selectbytext(groupdropdown, xutil.GetExcelcellvalue("opportunity", 1, 1));
 		getCampaignsourceselectionbutton().click();
 		wutil.switchwindow(driver, "Campaigns&action");
 		getCampaignname().click();
@@ -129,9 +129,9 @@ public class Vtigercreatingnewoppoutunity
 			wutil.switchwindow(driver, "Potentials&action");
 			assignedtogroupradio.click();
 			getGroupdropdown().click();
-			wutil.selectbytext(groupdropdown, "Team Selling");
+			wutil.selectbytext(groupdropdown, xutil.GetExcelcellvalue("opportunity", 1, 1));
 			getSalesstagedropdown().click();
-			wutil.selectbyvalue(salesstagedropdown, "Prospecting");
+			wutil.selectbyvalue(salesstagedropdown, xutil.GetExcelcellvalue("opportunity", 1, 2));
 			getSavebutton().click();
 			
 	}
@@ -146,9 +146,9 @@ public class Vtigercreatingnewoppoutunity
 			wutil.switchwindow(driver, "Potentials&action");
 			assignedtogroupradio.click();
 			getGroupdropdown().click();
-			wutil.selectbytext(groupdropdown, "Team Selling");
+			wutil.selectbytext(groupdropdown, xutil.GetExcelcellvalue("opportunity", 1, 1));
 			getSalesstagedropdown().click();
-			wutil.selectbyvalue(salesstagedropdown, "Qualification");
+			wutil.selectbyvalue(salesstagedropdown, xutil.GetExcelcellvalue("opportunity", 2, 2));
 			getSavebutton().click();
 	}
 	
@@ -162,9 +162,9 @@ public class Vtigercreatingnewoppoutunity
 			wutil.switchwindow(driver, "Potentials&action");
 			assignedtogroupradio.click();
 			getGroupdropdown().click();
-			wutil.selectbytext(groupdropdown, "Team Selling");
+			wutil.selectbytext(groupdropdown, xutil.GetExcelcellvalue("opportunity", 1, 1));
 			getSalesstagedropdown().click();
-			wutil.selectbyvalue(salesstagedropdown, "Needs Analysis");
+			wutil.selectbyvalue(salesstagedropdown, xutil.GetExcelcellvalue("opportunity", 3, 2));
 			getSavebutton().click();
 	}
 	
@@ -178,9 +178,9 @@ public class Vtigercreatingnewoppoutunity
 			wutil.switchwindow(driver, "Potentials&action");
 			assignedtogroupradio.click();
 			getGroupdropdown().click();
-			wutil.selectbytext(groupdropdown, "Team Selling");
+			wutil.selectbytext(groupdropdown, xutil.GetExcelcellvalue("opportunity", 1, 1));
 			getSalesstagedropdown().click();
-			wutil.selectbyvalue(salesstagedropdown, "Value Proposition");
+			wutil.selectbyvalue(salesstagedropdown, xutil.GetExcelcellvalue("opportunity", 4, 2));
 			getSavebutton().click();
 	}
 }

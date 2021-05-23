@@ -1,57 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Testrunner2(failed)">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.crm.vtiger.Testscripts.TC_12_createoppurtunitywithsalesstageprospectingTest">
+      <class name="seleniumGRID.SeleniumGrid">
         <methods>
-          <include name="closebrowser"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="openbrowser"/>
-          <include name="createoppwithsaleprospecting"/>
+          <include name="gridpractice" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.crm.vtiger.Testscripts.TC_12_createoppurtunitywithsalesstageprospectingTest -->
-      <class name="com.crm.vtiger.Testscripts.TC_13_createoppurtunitywithsalesstagequalificationTest">
-        <methods>
-          <include name="closebrowser"/>
-          <include name="creatopptwithsalesstagequal"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="openbrowser"/>
-        </methods>
-      </class> <!-- com.crm.vtiger.Testscripts.TC_13_createoppurtunitywithsalesstagequalificationTest -->
+      </class> <!-- seleniumGRID.SeleniumGrid -->
     </classes>
-  </test> <!-- Testrunner2(failed) -->
-  <test thread-count="5" parallel="tests" name="testrunner1(failed)">
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.crm.vtiger.Testscripts.TC_14_createoppurtunitywithsalesstageneedanalysisTest">
+      <class name="seleniumGRID.SeleniumGrid">
         <methods>
-          <include name="createoppuwithsalesstageneedanal"/>
-          <include name="closebrowser"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="openbrowser"/>
+          <include name="gridpractice" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.crm.vtiger.Testscripts.TC_14_createoppurtunitywithsalesstageneedanalysisTest -->
-      <class name="com.crm.vtiger.Testscripts.TC_15_createoppurtunitywithsalesstagevaluepropositionTest">
-        <methods>
-          <include name="closebrowser"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="openbrowser"/>
-          <include name="createoppwithsalesstagevalueproposition"/>
-        </methods>
-      </class> <!-- com.crm.vtiger.Testscripts.TC_15_createoppurtunitywithsalesstagevaluepropositionTest -->
-      <class name="com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest">
-        <methods>
-          <include name="closebrowser"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="createoppurtunitywithcampsrc"/>
-          <include name="openbrowser"/>
-        </methods>
-      </class> <!-- com.crm.vtiger.Testscripts.TC_11_createoppurtunitywithcampaignsourceTest -->
+      </class> <!-- seleniumGRID.SeleniumGrid -->
     </classes>
-  </test> <!-- testrunner1(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

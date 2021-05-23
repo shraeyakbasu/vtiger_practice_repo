@@ -17,7 +17,8 @@ public class Screenshotclass implements ITestListener
 		TakesScreenshot ts=(TakesScreenshot)Baseclass.sdriver;
 		File srcfile=ts.getScreenshotAs(OutputType.FILE);
 		try {
-		FileUtils.copyFile(srcfile, new File("./failedscreenshot/"+result.getMethod().getMethodName()+date+".png"));
+		FileUtils.copyFile(srcfile, new File(AutoConstant.screenshotpath+result.getMethod().getMethodName()+date+".png"));
+
 		}
 		catch(Exception e)
 		{
