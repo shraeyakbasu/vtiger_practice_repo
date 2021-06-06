@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.TreeSet;
 
-public class sample1 
+public class Invertedrightanglepattern 
 {
 
 	public static void main(String[] args) 

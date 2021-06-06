@@ -1,13 +1,12 @@
 import java.util.HashSet;
-import java.util.TreeSet;
 
-public class duplicatecharacterinastring
+public class onlyduplicatecharacterinstring
 {
 
 	public static void main(String[] args) 
 	{
 		int i;
-		int counter=0;
+		int n=3;
 		String name="shraeyakbasu";
 		char [] name1=name.toCharArray();
 		HashSet<Character> nameset=new HashSet<Character>();
@@ -18,6 +17,7 @@ public class duplicatecharacterinastring
 		System.out.println(name);
 		for( Character character:nameset)
 		{
+			int counter=0;
 			for( i=0;i<name1.length;i++)
 			{
 				if(character==name1[i])
@@ -27,8 +27,9 @@ public class duplicatecharacterinastring
 				}
 				
 			}
+			if(counter>=n)
 			System.out.println(character+" occured "+counter+" number of times ");
-			counter=0;
+			
 			}
 		}
 
