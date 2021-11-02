@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-17T13:47:05 IST" name="Suite" finished-at="2021-05-17T13:47:15 IST" duration-ms="9905">
+  <suite started-at="2021-06-13T00:48:37 IST" name="Default suite" finished-at="2021-06-13T00:49:34 IST" duration-ms="57410">
     <groups>
     </groups>
-    <test started-at="2021-05-17T13:47:05 IST" name="Test1" finished-at="2021-05-17T13:47:12 IST" duration-ms="6551">
-      <class name="seleniumGRID.SeleniumGrid">
-        <test-method signature="gridpractice(java.lang.String)[pri:0, instance:seleniumGRID.SeleniumGrid@71b1176b]" started-at="2021-05-17T13:47:05 IST" name="gridpractice" finished-at="2021-05-17T13:47:11 IST" duration-ms="6409" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2021-06-13T00:48:37 IST" name="Default test" finished-at="2021-06-13T00:49:34 IST" duration-ms="57410">
+      <class name="supernova_project.AssignmentTYSS100621">
+        <test-method signature="assignmenttyss()[pri:0, instance:supernova_project.AssignmentTYSS100621@56de5251]" started-at="2021-06-13T00:48:37 IST" name="assignmenttyss" finished-at="2021-06-13T00:49:34 IST" duration-ms="57249" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gridpractice -->
-      </class> <!-- seleniumGRID.SeleniumGrid -->
-    </test> <!-- Test1 -->
-    <test started-at="2021-05-17T13:47:05 IST" name="Test2" finished-at="2021-05-17T13:47:15 IST" duration-ms="9903">
-      <class name="seleniumGRID.SeleniumGrid">
-        <test-method signature="gridpractice(java.lang.String)[pri:0, instance:seleniumGRID.SeleniumGrid@2ea227af]" started-at="2021-05-17T13:47:05 IST" name="gridpractice" finished-at="2021-05-17T13:47:15 IST" duration-ms="9801" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gridpractice -->
-      </class> <!-- seleniumGRID.SeleniumGrid -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- assignmenttyss -->
+      </class> <!-- supernova_project.AssignmentTYSS100621 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test2(failed)">
-    <parameter name="browser" value="firefox"/>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="seleniumGRID.SeleniumGrid">
-        <methods>
-          <include name="gridpractice" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- seleniumGRID.SeleniumGrid -->
+      <class name="com.tyss.actitime.scripts.CreateUsers"/>
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" parallel="tests" name="Test1(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="seleniumGRID.SeleniumGrid">
-        <methods>
-          <include name="gridpractice" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- seleniumGRID.SeleniumGrid -->
-    </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

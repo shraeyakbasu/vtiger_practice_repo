@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumGRID.SeleniumGrid">
+      <class name="supernova_project.AssignmentTYSS100621">
         <methods>
-          <include name="gridpractice"/>
+          <include name="assignmenttyss"/>
         </methods>
-      </class> <!-- seleniumGRID.SeleniumGrid -->
+      </class> <!-- supernova_project.AssignmentTYSS100621 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

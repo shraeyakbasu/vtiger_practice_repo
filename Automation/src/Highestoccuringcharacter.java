@@ -9,7 +9,7 @@ public class Highestoccuringcharacter
 	public static void main(String[] args) 
 	{
 		int counter=0;
-		String name="shraeyakbasu";
+		String name="shraeyakbassu";
 		char [] name1=name.toCharArray();
 		HashSet<Character> set=new HashSet<>();
 		HashMap<Character, Integer> map=new HashMap<>();

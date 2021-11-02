@@ -3,7 +3,7 @@ public class palindrome {
 
 	public static void main(String[] args) 
 	{
-		String name="madam";
+		String name="java";
 		String reversename="";
 		int length= name.length();
 		
@@ -19,6 +19,15 @@ public class palindrome {
 		{
 			System.out.println("string is not palindrome");
 		}
+		
+		StringBuffer sb=new StringBuffer(name);
+		String revname=sb.reverse().toString();
+		if(name.equals(revname))
+		{
+			System.out.println("palindrome");
+		}
+		else
+			System.out.println("not palindrome");
 
 	}
 

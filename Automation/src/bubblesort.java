@@ -4,7 +4,7 @@ public class bubblesort
 
 	public static void main(String[] args)
 	{
-		int a[]= {30,40,10,20,50,60,70};
+		int a[]= {30,40,10,20,50,60,70,30};
 		for(int i=0;i<a.length;i++)
 		{
 			for(int j=i+1;j<a.length;j++)
